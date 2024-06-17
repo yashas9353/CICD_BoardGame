@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build and analyze
+  sonar-test:
+    name: sonar-code-quality-check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
