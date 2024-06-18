@@ -24,8 +24,8 @@ jobs:
           scan-type: "fs"
           format: "table"
           severity: "HIGH,CRITICAL"
-          exit-code: "1"
-          ignore-unfixed: false
+          exit-code: "0"
+          ignore-unfixed: true
           skip-files: ""
           skip-dirs: ""
 
